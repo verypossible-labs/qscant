@@ -1,0 +1,20 @@
+# The directory Mix will write compiled artifacts to
+/_build/
+
+# If you want to run "mix test --cover", coverage assets are here
+/cover/
+
+# Third party deps
+/deps/
+
+# Documentation output
+/doc/
+
+# Ignore .fetch files
+/.fetch
+
+# Crashdumps
+erl_crash.dump
+
+# Artchived artfacts
+*.ez:
