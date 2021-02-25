@@ -12,7 +12,7 @@ defmodule QscanT.MixProject do
       package: package(),
       source_url: "https://github.com/verypossible-labs/qscant",
       start_permanent: Mix.env() == :prod,
-      version: "0.1.0"
+      version: "0.1.1"
     ]
   end
 
