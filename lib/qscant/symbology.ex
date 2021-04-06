@@ -165,7 +165,7 @@ defmodule QscanT.Symbology do
     parameter = "X007"
 
     {:ok, values} = encode_symbols(supported_symbols, symbols)
-    IO.inspect(values)
+
     Commands.encode(parameter, values)
   end
 
